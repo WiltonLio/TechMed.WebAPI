@@ -31,20 +31,21 @@ public class MedicoController : ControllerBase
         .ToArray();
     }
     [HttpPost(Name = "Medicos")]
-    public void Post([FromBody] Medico medico)
+    public IActionResult Post([FromBody] Medico medico)
     {
-        
+        return CreatedAtAction(nameof(Get), new { id = medico.Id }, medico);
     }
 
     [HttpPut("{id}")]
-    public void Put(int id, [FromBody] Medico medico){
-        
+    public IActionResult Put(int id, [FromBody] Medico medico)
+    {
+        return NoContent();
     }
 
     [HttpDelete("{id}")]
-    public void Delete(int id)
+    public IActionResult Delete(int id)
     {
-
+        return NoContent();
     }
 
 }

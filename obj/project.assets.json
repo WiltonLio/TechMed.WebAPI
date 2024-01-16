@@ -474,11 +474,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/wilton-freire-timoteo/Área de trabalho/DotNet - Trilha/Semana 03/TechMed.WebAPI/TechMed.WebAPI.csproj",
+      "projectUniqueName": "/home/wilton-freire-timoteo/Área de trabalho/TechMed.WebAPI/TechMed.WebAPI.csproj",
       "projectName": "TechMed.WebAPI",
-      "projectPath": "/home/wilton-freire-timoteo/Área de trabalho/DotNet - Trilha/Semana 03/TechMed.WebAPI/TechMed.WebAPI.csproj",
+      "projectPath": "/home/wilton-freire-timoteo/Área de trabalho/TechMed.WebAPI/TechMed.WebAPI.csproj",
       "packagesPath": "/home/wilton-freire-timoteo/.nuget/packages/",
-      "outputPath": "/home/wilton-freire-timoteo/Área de trabalho/DotNet - Trilha/Semana 03/TechMed.WebAPI/obj/",
+      "outputPath": "/home/wilton-freire-timoteo/Área de trabalho/TechMed.WebAPI/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/wilton-freire-timoteo/.nuget/NuGet/NuGet.Config"
